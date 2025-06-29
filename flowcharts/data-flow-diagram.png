@@ -1,0 +1,23 @@
+[Start]
+   ↓
+[User logs in]
+   ↓
+[User selects property]
+   ↓
+[Check property availability]
+   ↓(Yes)────→ [Proceed to booking form]
+   ↓(No)─────→ [Show “Unavailable” message] → [End]
+   ↓
+[User enters check-in/check-out]
+   ↓
+[Calculate total price]
+   ↓
+[User confirms booking]
+   ↓
+[Redirect to payment gateway]
+   ↓
+[Payment successful?]
+   ↓(Yes)────→ [Store booking in DB] → [Send confirmation email]
+   ↓(No)─────→ [Show payment failed] → [Retry or cancel]
+   ↓
+[End]
