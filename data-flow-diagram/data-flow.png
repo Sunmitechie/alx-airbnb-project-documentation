@@ -1,0 +1,7 @@
+[Guest] ---> (User Auth) ---> [User DB]
+[Host] ---> (Property Mgmt) ---> [Property Listings DB]
+[Guest] ---> (Search) ---> [Property Listings DB] ---> Results
+[Guest] ---> (Booking) ---> [Bookings DB]
+[Booking] ---> (Payment) ---> [Payments DB]
+[Guest] ---> (Review) ---> [Reviews DB]
+[Admin] ---> (Moderate Listings) ---> [Property Listings DB]
